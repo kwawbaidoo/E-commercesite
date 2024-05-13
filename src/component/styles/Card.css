@@ -1,0 +1,51 @@
+.card {
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 3px gray;
+    /* gap: 5px; */
+}
+
+.item-image {
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.item-image p {
+    width: 50px;
+    height: 150px;
+   display: flex;
+   align-items:end;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.details {
+    font-size: 18px;
+    font-weight: bold;
+    gap: 20px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.addbutton {
+    /* width: 250px; */
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+
